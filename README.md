@@ -34,10 +34,11 @@ dsa.py模块中的findModReverse函数出自论坛，如有侵权，请联系我
     signature_message.py
     verify_signature.py
 
-# 先运行gen_key_and_threshold.py生成密钥，公钥保存至/data/public_key.txt,私钥通过分片以密文形式保存至private_keys文件夹，实现(t,n)门限
-# 可以通过查看文件的变化确定公私钥的变化
+##### 先运行gen_key_and_threshold.py生成密钥，公钥保存至/data/public_key.txt,私钥通过分片以密文形式保存至private_keys文件夹，实现(t,n)门限
 
-# 再运行signature_message.py对输入消息进行签名，消息签名对放入/data/message.txt
+##### 可以通过查看文件的变化确定公私钥的变化
 
-# 最后运行verify_signature对签名进行验证
-# 验证成功以后通过对message.txt中的消息进行修改，再次验证会验证失败，实现对消息完整性的检测
+##### 再运行signature_message.py对输入消息进行签名，消息签名对放入/data/message.txt
+
+##### 最后运行verify_signature对签名进行验证
+##### 验证成功以后通过对message.txt中的消息进行修改，再次验证会验证失败，实现对消息完整性的检测
