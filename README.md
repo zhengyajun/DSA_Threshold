@@ -2,8 +2,9 @@
 (t,n) threshold signature based on DSA
 
 # 声明：
-threshold.py使用python tss-0.1修改得出，tss-0.1地址：https://pypi.org/project/tss/
-dsa.py模块中的findModReverse函数出自论坛，如有侵权，请联系我立即删除。
+### *threshold.py使用python tss-0.1修改得出，tss-0.1地址：https://pypi.org/project/tss/*
+### *dsa.py模块中的findModReverse函数出自论坛，由于时间过长遗忘了出处地址，在此致歉作者，如有侵权，请联系我立即删除。*
+### *仅用于学习研究、请不要应用到实际生产中，防止出现安全问题。*
 
 # 文件介绍：
     /: 主文件，存放主要功能模块和说明文件：
